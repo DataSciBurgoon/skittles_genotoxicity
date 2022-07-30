@@ -1,6 +1,10 @@
 Author: Lyle D. Burgoon, Ph.D.
 Date: July 30, 2022
 
+# Important
+
+To see the analysis, just click on the skittle_genotoxicity.ipynb file in your browser, and Github will automagically re-run the analysis in real-time, and generate the analysis report. It's that simple!
+
 # Background
 
 The goal of this analysis is to answer a simple question: If the studies that EFSA identified as showing genotoxicity of TiO2 are true, how many skittles would I need to eat before I need to worry about genotoxicity?
