@@ -3,15 +3,17 @@ Date: July 30, 2022
 
 # Important
 
-To see the analysis, just click on the skittle_genotoxicity.ipynb file in your browser, and Github will automagically re-run the analysis in real-time, and generate the analysis report. It's that simple!
+To see the analysis, just click on the skittle_genotoxicity.ipynb or pharma_tio2_genotoxicity.ipynb file in your browser, and Github will automagically re-run the analysis in real-time, and generate the analysis report. It's that simple!
+
+Take a look at my [blog post about the Skittles analysis](https://toxictruthblog.com/4080-skittles-per-day-dna-damage-and-the-law/). 
 
 # Background
 
-The goal of this analysis is to answer a simple question: If the studies that EFSA identified as showing genotoxicity of TiO2 are true, how many skittles would I need to eat before I need to worry about genotoxicity?
+The goal of this analysis is to answer a simple question: If the studies that EFSA identified as showing genotoxicity of TiO2 are true, how many skittles or pharmaceutical tablets would I need to ingest before I need to worry about genotoxicity?
 
-What I can say is that I have examined the studies identified by EFSA. In my opinion, the studies are flawed, and upon critical review, I do not believe that there is any evidence that TiO2 causes genotoxicity, and even if it were to, they do not provide evidence that the genotoxicity is irreversible. The number of samples used in the studies is far too small to make any plausible inferences back to the human population. In one study they only used lymphocytes from a single person. In another case they used lymphocytes from only 20 people -- those are way too few people to be able to make inferences about the human population's response to TiO2.
+I have examined the studies identified by EFSA. In my opinion, the studies are flawed, and upon critical review, I do not believe that there is any evidence that TiO2 causes genotoxicity, and even if it were to, they do not provide evidence that the genotoxicity is irreversible. The number of samples used in the studies is far too small to make any plausible inferences back to the human population. In one study they only used lymphocytes from a single person. In another case they used lymphocytes from only 20 people -- those are way too few people to be able to make inferences about the human population's response to TiO2.
 
-There were statistical analysis flaws in many of the studies. In one case the authors did not run the samples on duplicate slides -- that is a standard for genotoxicity assays. In all cases where duplicate slides were used, the statistical model used was too simplistic. They need to account for the hierarchical nature of the study, and they did not.
+There were [statistical analysis flaws in many of the studies](https://toxictruthblog.com/efsa-bias-and-titanium-dioxide/). In one case the authors did not run the samples on duplicate slides -- that is a standard for genotoxicity assays. In all cases where duplicate slides were used, the statistical model used was too simplistic. They need to account for the hierarchical nature of the study, and they did not.
 
 In all cases, the studies were set-up in such a way that there is a high likelihood of sampling bias, which will lead to increased false positives.
 
@@ -23,8 +25,8 @@ Let us also not forget that genotoxicity in mature cells is typically not a prob
 
 # The Analysis
 
-The skittles_genotoxicity.ipynb file contains the analysis in full. In the analysis I am making the assumption that the 80ug/mL concentration of TiO2 causes genotoxicity. I know that there is no evidence for this, but I want to demonstrate that even if 80ug/mL actually did cause genotoxicity, that that level represents such an extremely high dose that it is simply not plausible for a human to reach it.
+The skittles_genotoxicity.ipynb and pharma_tio2_genotoxicity.ipynb files contain the analysis in full. In the analysis I am making the assumption that the 80ug/mL concentration of TiO2 causes genotoxicity. I know that there is no evidence for this, but I want to demonstrate that even if 80ug/mL actually did cause genotoxicity, that that level represents such an extremely high dose that it is simply not plausible for a human to reach it.
 
 In other words -- all chemicals are toxic at some dose. That dose may be ridiculously high -- as in the case of genotoxicity and TiO2. In the US we favor a risk-based approach where we use the science of toxicology to identify safe doses, and regulate chemical exposures to occur at those safe doses. 
 
-You can see the rationale for me saying that 80ug/mL is a ridulously high dose that is implausible for humans to ever reach in the skittles_genotoxicity.ipynb file. In Github you just need to load it up in the browser to see the full analysis.
+You can see the rationale for me saying that 80ug/mL is a ridulously high dose that is implausible for humans to ever reach in the skittles_genotoxicity.ipynb and pharma_tio2_genotoxicity.ipynb files. In Github you just need to load it up in the browser to see the full analysis.
